@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+echo 'cleaning old reports..'
+./vendor/bin/codecept clean
+
+echo 'running tests'
+./vendor/bin/codecept run unit --report --xml --html --coverage-html --coverage-crap4j
+
+echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>> xml coverage report >>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+echo ""
+cat tests/_output/report.xml

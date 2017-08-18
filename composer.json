@@ -1,0 +1,23 @@
+{
+  "name": "arunahk/codeception-tests",
+  "description": "Test PHP Unit Test with Codeception",
+  "type": "project",
+  "keywords": [
+    "phpunit",
+    "codeception",
+    "testing"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Aruna Lakmal",
+      "email": "contact@webisto.tech",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "codeception/codeception": "^2.3",
+    "codeception/verify": "^0.4.0",
+    "codeception/specify": "^0.4.6"
+  }
+}

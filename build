@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+echo 'installing libs'
+composer -vvv install -o
+
+echo 'updating libraries'
+composer -vvv update -o
+
+echo 'generating autoload files'
+composer -vvv dumpautoload -o
