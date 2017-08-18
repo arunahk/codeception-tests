@@ -7,7 +7,7 @@
     "codeception",
     "testing"
   ],
-  "license": "BSD-3-Clause",
+  "license": "MIT License",
   "authors": [
     {
       "name": "Aruna Lakmal",
